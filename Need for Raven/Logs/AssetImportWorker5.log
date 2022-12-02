@@ -1,0 +1,370 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'tr' Physical Memory: 16226 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/desktop/Onur Akyıldız/UnityGames/Need for Raven
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+56123
+Successfully changed project path to: D:/desktop/Onur Akyıldız/UnityGames/Need for Raven
+D:/desktop/Onur Akyıldız/UnityGames/Need for Raven
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 90.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/desktop/Onur Akyıldız/UnityGames/Need for Raven/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     4018 MB
+    Driver:   30.0.15.1169
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002912 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 84.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.604 seconds
+Domain Reload Profiling:
+	ReloadAssembly (604ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (440ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (108ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004129 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\desktop\Onur Akyıldız\UnityGames\Need for Raven\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\desktop\Onur Akyıldız\UnityGames\Need for Raven\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.966 seconds
+Domain Reload Profiling:
+	ReloadAssembly (967ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (761ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (325ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (114.1 KB). Loaded Objects now: 3851.
+Memory consumption went from 119.3 MB to 119.2 MB.
+Total: 3.410300 ms (FindLiveObjects: 0.254000 ms CreateObjectMapping: 0.184700 ms MarkObjects: 2.867900 ms  DeleteObjects: 0.102800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30393.562629 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Driver_USA.prefab
+  artifactKey: Guid(c3c0d86c0e789a244b1295717c5bc208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Driver_USA.prefab using Guid(c3c0d86c0e789a244b1295717c5bc208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d654195028223ab5c22436b588cd1b8') in 1.171407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Static_EU.prefab
+  artifactKey: Guid(5bb1f14131476c74a95504263bf0558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Static_EU.prefab using Guid(5bb1f14131476c74a95504263bf0558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432da31e46f6004ca050a67afd3650a8') in 0.091091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1312.551038 seconds.
+  path: Assets/cars/ACC_Lite/Materials/Cars/SunLineGTE_Green.mat
+  artifactKey: Guid(2c823894f135f77468c08030149dd253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/ACC_Lite/Materials/Cars/SunLineGTE_Green.mat using Guid(2c823894f135f77468c08030149dd253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbbccf1c01e7f5986c6fea42512cbff') in 0.046473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/cars/ACC_Lite/Materials/Cars/SunLineGTE_Red.mat
+  artifactKey: Guid(f95eecc68eb44674e8ffc46cc4994fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/ACC_Lite/Materials/Cars/SunLineGTE_Red.mat using Guid(f95eecc68eb44674e8ffc46cc4994fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd267890de20b180e575550bf6bab4053') in 0.023681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/cars/ACC_Lite/Materials/Cars/WheelWhiteMate.mat
+  artifactKey: Guid(5799ead5c8462e045a981f2ca41e80a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/ACC_Lite/Materials/Cars/WheelWhiteMate.mat using Guid(5799ead5c8462e045a981f2ca41e80a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46674db1393b74ced12b0387cb356aa') in 0.016712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.538869 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_1.mat
+  artifactKey: Guid(485b5b6c9be8bc84fa20faf56e94b536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_1.mat using Guid(485b5b6c9be8bc84fa20faf56e94b536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5984a52cdc7f0e7ff7d15eea2e473b0') in 0.010843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_1.mat
+  artifactKey: Guid(fbdfc4068464b064281f360c6ef2121c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_1.mat using Guid(fbdfc4068464b064281f360c6ef2121c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86e62b633b25f78d3c89e7010c68d54') in 0.013819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_3.mat
+  artifactKey: Guid(8e204c4cedb3c87479171e0f8140bffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_3.mat using Guid(8e204c4cedb3c87479171e0f8140bffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7794f56b701cbf3ac4a9321907a36865') in 0.011636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_K.mat
+  artifactKey: Guid(b25146dfc9aeed84696a9e2e6c3ddf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_K.mat using Guid(b25146dfc9aeed84696a9e2e6c3ddf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3400bf6ddc6df3b64bab694c4d96fc7') in 0.014657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_P.mat
+  artifactKey: Guid(1f29556762d98084daaea382c96c6b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_P.mat using Guid(1f29556762d98084daaea382c96c6b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81d1f91d5991953fa3b098206a863c2') in 0.012546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_H.mat
+  artifactKey: Guid(733057cd843a0cf47a1bb97a0d521b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_H.mat using Guid(733057cd843a0cf47a1bb97a0d521b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdbafe46ab7b6e1bc5231842cce7b70') in 0.013832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_S.mat
+  artifactKey: Guid(b49ebfbb388974844996ba01a9571e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_S.mat using Guid(b49ebfbb388974844996ba01a9571e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4598848fd6c98101472f6355ca96143') in 0.014911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_7.mat
+  artifactKey: Guid(528dcd708f568184aa3ec5ac978ad713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_7.mat using Guid(528dcd708f568184aa3ec5ac978ad713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb02e9578584de173f5b1d15d6408fe') in 0.015662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_4.mat
+  artifactKey: Guid(d6df639b6b8240745bf04cfd69705437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_4.mat using Guid(d6df639b6b8240745bf04cfd69705437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12c7a68d13ba6b33f337758caf5d702') in 0.012917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_6.mat
+  artifactKey: Guid(8f09aa372f1a35a4cac4f01d5416ec61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_6.mat using Guid(8f09aa372f1a35a4cac4f01d5416ec61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e380f5ac418ad001cef707c6b9d42a25') in 0.013171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_U.mat
+  artifactKey: Guid(eff0a5a964efb9a4ba0948ef89a5b65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_U.mat using Guid(eff0a5a964efb9a4ba0948ef89a5b65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0170e7d403e7f9905e18dd829266019') in 0.014310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_Y.mat
+  artifactKey: Guid(14f65aa7932ede345ba45a94a79ca991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_Y.mat using Guid(14f65aa7932ede345ba45a94a79ca991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87402c68d33d87fbc044563e80330454') in 0.013494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_2.mat
+  artifactKey: Guid(2ee8a5e330cbb894f9a23c77716e8e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_2.mat using Guid(2ee8a5e330cbb894f9a23c77716e8e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd930cd8b1dd108af895ea9b6616459bc') in 0.012466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_L.mat
+  artifactKey: Guid(44fc7ec907a055e4a90fa20946699f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_L.mat using Guid(44fc7ec907a055e4a90fa20946699f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25599ceaaca1bb650d8d0009199570d') in 0.013258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_N.mat
+  artifactKey: Guid(5cd413fdd448b924abba62ad01ca5b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_N.mat using Guid(5cd413fdd448b924abba62ad01ca5b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb0fc0d222f3eac7665b2e108a9e61d') in 0.011342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_Q.mat
+  artifactKey: Guid(b2510a07757da8f49a8512d069c64442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_Q.mat using Guid(b2510a07757da8f49a8512d069c64442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4492b990b1833b75f56a39978356d669') in 0.014240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_2.mat
+  artifactKey: Guid(72adc993a955d174fb921ec111fd4786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_2.mat using Guid(72adc993a955d174fb921ec111fd4786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cb82ec83edad3b4316d54794347329') in 0.014331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_4.mat
+  artifactKey: Guid(85ba04a0355970941a75193ed9334dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_4.mat using Guid(85ba04a0355970941a75193ed9334dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2dd305a743894b6587edf9915327b9') in 0.014844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_G.mat
+  artifactKey: Guid(ae209674c9a4bc9468eafa6ac62e75c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_G.mat using Guid(ae209674c9a4bc9468eafa6ac62e75c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2dc99f065fdaad26a1bd25df96d457e') in 0.014250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_O.mat
+  artifactKey: Guid(650c397a80ff9984390119484e8a3f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_O.mat using Guid(650c397a80ff9984390119484e8a3f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5235d064d75b206bd75c5b03583df7b') in 0.016988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_7.mat
+  artifactKey: Guid(71c4afb7e9853d04e9bd0748ed8c759a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_7.mat using Guid(71c4afb7e9853d04e9bd0748ed8c759a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d3f4116900e144746dacaf67cd77dc') in 0.016141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_I.mat
+  artifactKey: Guid(0d661ae904a83b648b3ea536e59f4eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_I.mat using Guid(0d661ae904a83b648b3ea536e59f4eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2966d0700f1f2087408a9916cd227fa4') in 0.016311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_F.mat
+  artifactKey: Guid(1455bcafd7c51e44bbf16d58d4bb6c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_F.mat using Guid(1455bcafd7c51e44bbf16d58d4bb6c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db1fdf1a1f920fec6a908b42bc655e8') in 0.016872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_P.mat
+  artifactKey: Guid(61ddaa92295be2d448e84f9bb1e8637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_P.mat using Guid(61ddaa92295be2d448e84f9bb1e8637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1094824f84eabe7ce4d9f7dde4a5133') in 0.017235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_5.mat
+  artifactKey: Guid(98e53d161cf0c1746b9b445b5ccf04a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_5.mat using Guid(98e53d161cf0c1746b9b445b5ccf04a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe7339c1d3fd665ec4df74d93ec0588') in 0.020711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_B.mat
+  artifactKey: Guid(4156fe5f63421094cb71c2fe7e82e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_B.mat using Guid(4156fe5f63421094cb71c2fe7e82e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bb65d3ab392f816d6e34f6e7ca7e12') in 0.023179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_S.mat
+  artifactKey: Guid(6595c00481d75ad46bee797278dfc560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_S.mat using Guid(6595c00481d75ad46bee797278dfc560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c881fca081163b2a13f4aec742b20b00') in 0.018783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_Z.mat
+  artifactKey: Guid(6ce98d0f4ca6b56438e4c216aeadd7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_Z.mat using Guid(6ce98d0f4ca6b56438e4c216aeadd7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3803203c543005323e1f9086ad4e848f') in 0.016801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.261343 seconds.
+  path: Assets/cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/BrakeDiscGlow.mat
+  artifactKey: Guid(ffb39343dc3158743bd14c97c15642f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/BrakeDiscGlow.mat using Guid(ffb39343dc3158743bd14c97c15642f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22ccd4d87bb8328fcfd118c22afaa1f') in 0.270272 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
