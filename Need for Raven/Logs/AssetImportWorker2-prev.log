@@ -1,0 +1,418 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'tr' Physical Memory: 16226 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/desktop/Onur Akyıldız/UnityGames/Need for Raven
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+56123
+Successfully changed project path to: D:/desktop/Onur Akyıldız/UnityGames/Need for Raven
+D:/desktop/Onur Akyıldız/UnityGames/Need for Raven
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 90.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/desktop/Onur Akyıldız/UnityGames/Need for Raven/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     4018 MB
+    Driver:   30.0.15.1169
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002903 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 81.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.629 seconds
+Domain Reload Profiling:
+	ReloadAssembly (629ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (461ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (103ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004777 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\desktop\Onur Akyıldız\UnityGames\Need for Raven\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\desktop\Onur Akyıldız\UnityGames\Need for Raven\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
+Domain Reload Profiling:
+	ReloadAssembly (992ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (779ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3351 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.3 KB). Loaded Objects now: 3808.
+Memory consumption went from 115.3 MB to 115.2 MB.
+Total: 3.405700 ms (FindLiveObjects: 0.283700 ms CreateObjectMapping: 0.210200 ms MarkObjects: 2.812700 ms  DeleteObjects: 0.098300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006537 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\desktop\Onur Akyıldız\UnityGames\Need for Raven\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\desktop\Onur Akyıldız\UnityGames\Need for Raven\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.227 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1228ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (953ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (416ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (353ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (1.0 MB). Loaded Objects now: 3836.
+Memory consumption went from 118.6 MB to 117.5 MB.
+Total: 3.885800 ms (FindLiveObjects: 0.231200 ms CreateObjectMapping: 0.137700 ms MarkObjects: 3.067500 ms  DeleteObjects: 0.448600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (1.1 MB). Loaded Objects now: 3836.
+Memory consumption went from 51.4 MB to 50.4 MB.
+Total: 3.316100 ms (FindLiveObjects: 0.240500 ms CreateObjectMapping: 0.129700 ms MarkObjects: 2.513500 ms  DeleteObjects: 0.431900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 27255.547880 seconds.
+  path: Assets/ACC_Lite
+  artifactKey: Guid(3f8b214cbbe1c3d4eb6888addc9c1021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite using Guid(3f8b214cbbe1c3d4eb6888addc9c1021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea08e17c71005884372cec0ccdf2cbee') in 0.007586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.939424 seconds.
+  path: Assets/ACC_Lite/Textures
+  artifactKey: Guid(3d50800ab07947f4e97eccb96723c12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Textures using Guid(3d50800ab07947f4e97eccb96723c12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03af6c8328a1f7a12f781ee1512fb013') in 0.005656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058467 seconds.
+  path: Assets/ACC_Lite/Textures/Test.png
+  artifactKey: Guid(1ae1605f56f53bb41b77ccf686c8527f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Textures/Test.png using Guid(1ae1605f56f53bb41b77ccf686c8527f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Runtime\Graphics\RenderTexture.cpp line 1078]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Runtime\Graphics\RenderTexture.cpp line 1078]
+
+ -> (artifact id: '5d6b24932c30acf8469d660fb7c58d73') in 0.098808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.580367 seconds.
+  path: Assets/ACC_Lite/Textures/Cars
+  artifactKey: Guid(654a5811c45b9b4498d57b7f2e55311a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Textures/Cars using Guid(654a5811c45b9b4498d57b7f2e55311a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb103e9f17cf4f6a1d86c33266b93dce') in 0.006393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.237356 seconds.
+  path: Assets/ACC_Lite/Textures/Cars/SunLineGTE
+  artifactKey: Guid(1d42ae145ed2c4d47ae6f670524932b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Textures/Cars/SunLineGTE using Guid(1d42ae145ed2c4d47ae6f670524932b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492cd1a9e1d04c5aab6f22b21e13884f') in 0.006536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036013 seconds.
+  path: Assets/ACC_Lite/Textures/Cars/SunLineGTE/SunLineGTE_Color1.png
+  artifactKey: Guid(ab014484c6b362441843ad9dd9744208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Textures/Cars/SunLineGTE/SunLineGTE_Color1.png using Guid(ab014484c6b362441843ad9dd9744208) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Runtime\Graphics\RenderTexture.cpp line 1078]
+
+ -> (artifact id: 'e24c88a2cdfebbc301d22ff18c050600') in 0.024383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ACC_Lite/Textures/Cars/SunLineGTE/SunLineGTE_Normal.png
+  artifactKey: Guid(fbed1c73adeecfc44bae381bf517ae0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Textures/Cars/SunLineGTE/SunLineGTE_Normal.png using Guid(fbed1c73adeecfc44bae381bf517ae0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Runtime\Graphics\RenderTexture.cpp line 1078]
+
+ -> (artifact id: '164d91b4884b309916f47e5a3c0f0921') in 0.085951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.200037 seconds.
+  path: Assets/ACC_Lite/FBX
+  artifactKey: Guid(203a9cf89ae4e0643a1a032e028e88a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX using Guid(203a9cf89ae4e0643a1a032e028e88a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4aabf06b288ba5c0bbe06aabaf2b36') in 0.006167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.956688 seconds.
+  path: Assets/ACC_Lite/FBX/Cars
+  artifactKey: Guid(18f4053a76b5dcc48ab6c1a09f2777bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/Cars using Guid(18f4053a76b5dcc48ab6c1a09f2777bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d1adce83e1839eaca5229ccef50635') in 0.002383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044125 seconds.
+  path: Assets/ACC_Lite/FBX/Cars/SunLineGTE.FBX
+  artifactKey: Guid(32f642a00e79ce54d95da68b743c2c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/Cars/SunLineGTE.FBX using Guid(32f642a00e79ce54d95da68b743c2c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3d6f25ea876ef4266f129cab718904') in 0.373650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.889715 seconds.
+  path: Assets/ACC_Lite/FBX/World
+  artifactKey: Guid(a5acde9c180310a4db2a616b3cc1d757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World using Guid(a5acde9c180310a4db2a616b3cc1d757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cdc207c7e14f1ad2f444ec6f166f33') in 0.006611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060333 seconds.
+  path: Assets/ACC_Lite/FBX/World/Road.FBX
+  artifactKey: Guid(57867bbaab23bb8458f59a1de575925c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/Road.FBX using Guid(57867bbaab23bb8458f59a1de575925c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db20076ec02bd0be5462b4ee4268dfed') in 0.013533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.878565 seconds.
+  path: Assets/ACC_Lite/FBX/World/Materials
+  artifactKey: Guid(6bf0f1511a715ab40a4d38eb5e24223a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/Materials using Guid(6bf0f1511a715ab40a4d38eb5e24223a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb38522bf93cf39113294e767ac81b91') in 0.006111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060838 seconds.
+  path: Assets/ACC_Lite/FBX/World/Materials/RoadDark.mat
+  artifactKey: Guid(1d268579e3483244d917ededf80287a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/Materials/RoadDark.mat using Guid(1d268579e3483244d917ededf80287a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6fe69feaa254688f080c993c3591d9') in 0.026199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.178431 seconds.
+  path: Assets/ACC_Lite/Fonts
+  artifactKey: Guid(01ca0fe24dbba1d468701434d36a1c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Fonts using Guid(01ca0fe24dbba1d468701434d36a1c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afd84fd1ff31f305cce841e553465b8') in 0.005946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.020164 seconds.
+  path: Assets/ACC_Lite/Fonts/ElectronicNumbers
+  artifactKey: Guid(9d2cdabfd61f0384abb21627d1664f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Fonts/ElectronicNumbers using Guid(9d2cdabfd61f0384abb21627d1664f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9b1e47a3ed4cbbf7c7da5759e11106') in 0.005189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.243369 seconds.
+  path: Assets/ACC_Lite/Fonts/ElectronicNumbers/ElectronicNumbers SDF.asset
+  artifactKey: Guid(3da9b1738fe60164f9945132588fe2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Fonts/ElectronicNumbers/ElectronicNumbers SDF.asset using Guid(3da9b1738fe60164f9945132588fe2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Runtime\Graphics\RenderTexture.cpp line 1078]
+
+ -> (artifact id: '59970388e729889799ce5663f1357107') in 0.116651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.008500 seconds.
+  path: Assets/ACC_Lite/Prefabs
+  artifactKey: Guid(c881e85a285535745b5f72105cfdbdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Prefabs using Guid(c881e85a285535745b5f72105cfdbdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90ff7cd05fa34b41ddeae6577d00b57') in 0.006258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.081016 seconds.
+  path: Assets/ACC_Lite/Prefabs/Cars
+  artifactKey: Guid(6bf0cd11890b76f44ae7f00e8bf04be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Prefabs/Cars using Guid(6bf0cd11890b76f44ae7f00e8bf04be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f712dbb63c5466b1c56edf4516ad8e3e') in 0.001959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053945 seconds.
+  path: Assets/ACC_Lite/Prefabs/Cars/SunLineGTE_Drift.prefab
+  artifactKey: Guid(c3561634431fb8f40830bd4c3b642798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Prefabs/Cars/SunLineGTE_Drift.prefab using Guid(c3561634431fb8f40830bd4c3b642798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c084ec7f3b81771ffad89f0bc14432c') in 0.509932 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
